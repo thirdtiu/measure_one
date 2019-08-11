@@ -19,12 +19,17 @@ img{
 
 
 body{
-	background: #f0f0f0;
+	background: #fff;
 	color: #45454d;
 	// padding-top: 51px;
 	@include media-breakpoint-up(lg) {
 		// padding-top: 81.6px;
 	}
+}
+#large_top_page_bg {
+	min-height: 1160px;
+	background: url(../images/large_top_page_bg.png) top no-repeat #f0f0f0;
+	background-size: cover;
 }
 a:hover {
 	text-decoration: none;
@@ -32,12 +37,10 @@ a:hover {
 .hidden {
 	display: none !important;
 }
-.d-sm-none {
-	display: none;
-	@include media-breakpoint-up(sm) {
-		display: block;
-	}
 
+
+#main_footer {
+	
 }
 @keyframes fadein {
 	from { opacity: 0; }

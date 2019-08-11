@@ -5844,6 +5844,7 @@ img {
 
 body {
   background: #fff;
+  font-family: 'Quicksand', sans-serif;
   color: #45454d; }
 
 #large_top_page_bg {
@@ -5856,6 +5857,16 @@ a:hover {
 
 .hidden {
   display: none !important; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; }
+
+.nav-link {
+  font-weight: bold; }
+
+#main_header .btn-link {
+  color: #fff;
+  text-decoration: none; }
 
 @keyframes fadein {
   from {

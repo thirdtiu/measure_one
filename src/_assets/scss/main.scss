@@ -20,6 +20,7 @@ img{
 
 body{
 	background: #fff;
+	font-family: 'Quicksand', sans-serif;
 	color: #45454d;
 	// padding-top: 51px;
 	@include media-breakpoint-up(lg) {
@@ -38,6 +39,19 @@ a:hover {
 	display: none !important;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
+.nav-link {
+	font-weight: bold;
+}
+
+#main_header {
+	.btn-link {
+		color: #fff;
+		text-decoration: none;
+	}
+}
 
 #main_footer {
 	

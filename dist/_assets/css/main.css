@@ -5864,9 +5864,62 @@ a:hover {
 .nav-link {
   font-weight: bold; }
 
+.btn-outline {
+  border-width: 2px;
+  font-weight: bold;
+  border-radius: 100px; }
+
 #main_header .btn-link {
   color: #fff;
   text-decoration: none; }
+
+.survey-card {
+  color: #000;
+  background: #fff; }
+  .survey-card .pager .list-inline-item a {
+    display: block;
+    height: 7px;
+    width: 7px;
+    border: 1px solid #7e7e7e;
+    border-radius: 7px;
+    text-indent: -99999px;
+    outline: none; }
+  .survey-card .pager .list-inline-item.active a {
+    border-color: #1390CC;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#34c1f7+0,1390cc+100 */
+    background: #34c1f7;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#34c1f7), to(#1390cc));
+    background: linear-gradient(to bottom, #34c1f7 0%, #1390cc 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34c1f7', endColorstr='#1390cc',GradientType=0 );
+    /* IE6-9 */ }
+  .survey-card .btn-survey {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#34c1f7+0,1390cc+100 */
+    background: #34c1f7;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#34c1f7), to(#1390cc));
+    background: linear-gradient(to bottom, #34c1f7 0%, #1390cc 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34c1f7', endColorstr='#1390cc',GradientType=0 );
+    /* IE6-9 */
+    border: none;
+    border-radius: 100px;
+    padding-right: 25px;
+    padding-left: 25px; }
+
+#banner_section {
+  color: #fff;
+  font-size: 20px; }
+  #banner_section h1 {
+    font-size: 82px;
+    font-weight: bold; }
+    #banner_section h1 strong {
+      color: #ffda67; }
 
 @keyframes fadein {
   from {

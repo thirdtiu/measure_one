@@ -7,7 +7,7 @@
 @import "fa"; //fontawesome
 @import "material"; //material icons
 
-
+$yellow: #ffda67;
 
 /**UTILITIES**/
 img{
@@ -45,12 +45,68 @@ a:hover {
 .nav-link {
 	font-weight: bold;
 }
+.btn-outline {
+	border-width: 2px;
+	font-weight: bold;
+	border-radius: 100px;
+}
 
 #main_header {
 	.btn-link {
 		color: #fff;
 		text-decoration: none;
 	}
+}
+
+.survey-card {
+	color: #000;
+	background: #fff;
+	.pager {
+		.list-inline-item {
+			a {
+				display: block;
+				height: 7px;
+				width: 7px;
+				border: 1px solid #7e7e7e;
+				border-radius: 7px;
+				text-indent: -99999px;
+				outline: none;
+			}
+			&.active a{
+				border-color: #1390CC;
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#34c1f7+0,1390cc+100 */
+				background: #34c1f7; /* Old browsers */
+				background: -moz-linear-gradient(top,  #34c1f7 0%, #1390cc 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #34c1f7 0%,#1390cc 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #34c1f7 0%,#1390cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34c1f7', endColorstr='#1390cc',GradientType=0 ); /* IE6-9 */
+			}
+		}
+	}
+	.btn-survey {
+
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#34c1f7+0,1390cc+100 */
+		background: #34c1f7; /* Old browsers */
+		background: -moz-linear-gradient(top,  #34c1f7 0%, #1390cc 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #34c1f7 0%,#1390cc 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #34c1f7 0%,#1390cc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34c1f7', endColorstr='#1390cc',GradientType=0 ); /* IE6-9 */
+		border: none;
+		border-radius:100px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+}
+#banner_section {
+	color: #fff;
+	h1 {
+		font-size: 82px;
+		font-weight: bold;
+		strong {
+			color: $yellow;
+		}
+	}
+	font-size: 20px;
 }
 
 #main_footer {

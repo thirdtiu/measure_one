@@ -5875,7 +5875,18 @@ a:hover {
 
 .survey-card {
   color: #000;
-  background: #fff; }
+  position: relative;
+  padding: 33px 30px;
+  background: url(../images/card-swish.png) bottom right no-repeat #fff; }
+  .survey-card h2 {
+    font-size: 20px;
+    font-weight: bold; }
+  .survey-card label,
+  .survey-card p.label {
+    font-size: 12px; }
+  .survey-card .form-control {
+    border-color: #777;
+    border-radius: 12px; }
   .survey-card .pager .list-inline-item a {
     display: block;
     height: 7px;
@@ -5913,10 +5924,10 @@ a:hover {
     padding-left: 25px; }
 
 #banner_section {
+  margin-top: 4rem;
   color: #fff;
   font-size: 20px; }
   #banner_section h1 {
-    font-size: 82px;
     font-weight: bold; }
     #banner_section h1 strong {
       color: #ffda67; }
@@ -6046,7 +6057,25 @@ a:hover {
     -webkit-transform: translate3d(-10000px, 0, 0);
     transform: translate3d(-10000px, 0, 0); } }
 
+@media (min-width: 768px) {
+    .survey-card {
+      padding: 66px 60px; }
+    .survey-card h3.card-logo {
+      position: absolute;
+      right: 73px;
+      top: 66px;
+      margin: 0;
+      padding: 0; } }
+
+@media (max-width: 1199.98px) {
+    .survey-card {
+      margin-top: 4rem; } }
+
 @media (min-width: 992px) {
+    #banner_section {
+      margin-top: 6rem; }
+      #banner_section h1 {
+        font-size: 82px; }
     #main_footer .footer-logo {
       border-right: 1px solid #c6c6c6;
       padding-bottom: 70px;

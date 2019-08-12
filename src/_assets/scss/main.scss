@@ -61,7 +61,38 @@ a:hover {
 
 .survey-card {
 	color: #000;
-	background: #fff;
+	position: relative;
+	padding: 33px 30px;
+	background: url(../images/card-swish.png) bottom right no-repeat #fff;
+	@include media-breakpoint-up(md) {
+		padding: 66px 60px; 
+	}
+	@include media-breakpoint-down(lg) {
+		margin-top: 4rem;
+	}
+
+	h2 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	h3.card-logo {
+		
+		@include media-breakpoint-up(md){
+			position: absolute;	
+			right: 73px;
+			top: 66px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	label,
+	p.label {
+		font-size: 12px;
+	}
+	.form-control {
+		border-color: #777;
+		border-radius: 12px;	
+	}
 	.pager {
 		.list-inline-item {
 			a {
@@ -99,9 +130,15 @@ a:hover {
 	}
 }
 #banner_section {
+	margin-top: 4rem;
+	@include media-breakpoint-up(lg) {
+		margin-top: 6rem;
+	}
 	color: #fff;
 	h1 {
-		font-size: 82px;
+		@include media-breakpoint-up(lg) {
+			font-size: 82px;
+		}
 		font-weight: bold;
 		strong {
 			color: $yellow;

@@ -8,6 +8,7 @@
 @import "material"; //material icons
 
 $yellow: #ffda67;
+$blue: #004c76;
 
 /**UTILITIES**/
 img{
@@ -110,7 +111,26 @@ a:hover {
 }
 
 #main_footer {
-	
+	.footer-logo {
+		margin-bottom: 1rem;
+		@include media-breakpoint-up(lg) {
+			border-right: 1px solid #c6c6c6;
+			padding-bottom: 70px;
+			margin-bottom: 0;
+		}
+
+		img {
+			@include media-breakpoint-down(md){
+				width: 150px;
+			}
+		}
+	}
+	.footer_links {
+		font-weight: bold;
+		@include media-breakpoint-up(lg) {
+			font-size: 25px;
+		}
+	}
 }
 @keyframes fadein {
 	from { opacity: 0; }

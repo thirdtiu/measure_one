@@ -5921,6 +5921,12 @@ a:hover {
     #banner_section h1 strong {
       color: #ffda67; }
 
+#main_footer .footer-logo {
+  margin-bottom: 1rem; }
+
+#main_footer .footer_links {
+  font-weight: bold; }
+
 @keyframes fadein {
   from {
     opacity: 0; }
@@ -6039,3 +6045,15 @@ a:hover {
   .mm-wrapper_opening .mm-menu_fullscreen.mm-menu_position-right.mm-menu_opened ~ .mm-slideout {
     -webkit-transform: translate3d(-10000px, 0, 0);
     transform: translate3d(-10000px, 0, 0); } }
+
+@media (min-width: 992px) {
+    #main_footer .footer-logo {
+      border-right: 1px solid #c6c6c6;
+      padding-bottom: 70px;
+      margin-bottom: 0; }
+    #main_footer .footer_links {
+      font-size: 25px; } }
+
+@media (max-width: 991.98px) {
+    #main_footer .footer-logo img {
+      width: 150px; } }

@@ -29,7 +29,9 @@ body{
 	}
 }
 #large_top_page_bg {
-	min-height: 1160px;
+	@include media-breakpoint-up(lg) {
+		min-height: 1160px;
+	}
 	background: url(../images/large_top_page_bg.png) top no-repeat #f0f0f0;
 	background-size: cover;
 }
@@ -146,7 +148,30 @@ a:hover {
 	}
 	font-size: 20px;
 }
-
+#home_cta_section {
+	background: #f0f0f0;
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+	@include media-breakpoint-up(lg) {
+		padding-top: 0;
+		margin-top: -6rem;
+		padding-bottom: 6rem;
+	}
+	h1 {
+		font-size: 30px;
+		margin-bottom: 4rem;
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 6rem;
+		}
+	}
+	.title {
+		font-weight: bold;
+		font-size: 20px;
+		@include media-breakpoint-up(lg) {
+			font-size: 30px;
+		}
+	}
+}
 #main_footer {
 	.footer-logo {
 		margin-bottom: 1rem;

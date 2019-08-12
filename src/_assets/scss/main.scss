@@ -172,6 +172,26 @@ a:hover {
 		}
 	}
 }
+#home_video {
+	background: url(../images/splash-yellow.png) top center no-repeat #f0f0f0;
+	background-size: cover;
+	.container {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		@include media-breakpoint-up(lg) {
+			padding-top: 6rem;
+			padding-bottom: 6rem;
+		}
+		// min-height: 1000px;
+	}
+	h1 {
+		font-size: 30px;
+		margin-bottom: 4rem;
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 6rem;
+		}
+	}
+}
 #main_footer {
 	.footer-logo {
 		margin-bottom: 1rem;

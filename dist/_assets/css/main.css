@@ -5942,6 +5942,16 @@ a:hover {
     font-weight: bold;
     font-size: 20px; }
 
+#home_video {
+  background: url(../images/splash-yellow.png) top center no-repeat #f0f0f0;
+  background-size: cover; }
+  #home_video .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+  #home_video h1 {
+    font-size: 30px;
+    margin-bottom: 4rem; }
+
 #main_footer .footer-logo {
   margin-bottom: 1rem; }
 
@@ -6082,6 +6092,11 @@ a:hover {
         margin-bottom: 6rem; }
       #home_cta_section .title {
         font-size: 30px; }
+      #home_video .container {
+        padding-top: 6rem;
+        padding-bottom: 6rem; }
+      #home_video h1 {
+        margin-bottom: 6rem; }
     #main_footer .footer-logo {
       border-right: 1px solid #c6c6c6;
       padding-bottom: 70px;

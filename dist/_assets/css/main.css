@@ -5952,6 +5952,19 @@ a:hover {
     font-size: 30px;
     margin-bottom: 4rem; }
 
+#what_we_do {
+  background: #f0f0f0; }
+  #what_we_do h1 {
+    font-size: 30px;
+    margin-bottom: 4rem; }
+  #what_we_do .wwd_card {
+    background: #fff;
+    font-size: 20px; }
+    #what_we_do .wwd_card h3 {
+      color: #282828;
+      font-size: 20px;
+      font-weight: bold; }
+
 #main_footer .footer-logo {
   margin-bottom: 1rem; }
 
@@ -6097,6 +6110,17 @@ a:hover {
         padding-bottom: 6rem; }
       #home_video h1 {
         margin-bottom: 6rem; }
+    #what_we_do .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch; }
+      #what_we_do .wwd_card {
+        height: 100%; }
+        #what_we_do .wwd_card h3 {
+          font-size: 30px; }
     #main_footer .footer-logo {
       border-right: 1px solid #c6c6c6;
       padding-bottom: 70px;

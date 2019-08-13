@@ -192,6 +192,35 @@ a:hover {
 		}
 	}
 }
+
+#what_we_do {
+	background: #f0f0f0;
+	h1 {
+		font-size: 30px;
+		margin-bottom: 4rem;
+	}
+	.row {
+		@include media-breakpoint-up(lg) {
+			display: flex;
+			align-items: stretch;
+		}
+	}
+	.wwd_card {
+		background: #fff;
+		@include media-breakpoint-up(lg) {
+			height: 100%;
+		}
+		h3 {
+			color: #282828;
+			font-size: 20px;
+			font-weight: bold;
+			@include media-breakpoint-up(lg) {
+				font-size: 30px;
+			}
+		}
+		font-size: 20px;
+	}
+}
 #main_footer {
 	.footer-logo {
 		margin-bottom: 1rem;

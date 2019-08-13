@@ -221,6 +221,47 @@ a:hover {
 		font-size: 20px;
 	}
 }
+#opportunity_section {
+	h1 {
+		font-size: 30px;
+		margin-bottom: 4rem;
+		@include media-breakpoint-up(lg) {
+			margin-bottom: 6rem;
+		}
+	}
+	.image {
+		@include media-breakpoint-up(lg) {
+			flex-shrink: 0;
+		}
+	}
+	.content {
+		font-size: 20px;
+		@include media-breakpoint-up(lg) {
+			flex-grow: 1;
+			padding-left: 2rem;
+		}
+		h2 {
+			font-size: 30px;
+			font-weight: bold;
+		}
+	}
+}
+#home_contact_section {
+	background: url(../images/image_home_contact.png) center no-repeat;
+	background-size: cover;
+}
+#home_contact_section {
+	h1 {
+		font-size: 30px;
+		color: #fff;
+	}
+	.btn {
+		border-width: 2px;
+		font-weight: bold;
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
+}
 #main_footer {
 	.footer-logo {
 		margin-bottom: 1rem;

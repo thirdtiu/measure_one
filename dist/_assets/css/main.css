@@ -5965,6 +5965,30 @@ a:hover {
       font-size: 20px;
       font-weight: bold; }
 
+#opportunity_section h1 {
+  font-size: 30px;
+  margin-bottom: 4rem; }
+
+#opportunity_section .content {
+  font-size: 20px; }
+  #opportunity_section .content h2 {
+    font-size: 30px;
+    font-weight: bold; }
+
+#home_contact_section {
+  background: url(../images/image_home_contact.png) center no-repeat;
+  background-size: cover; }
+
+#home_contact_section h1 {
+  font-size: 30px;
+  color: #fff; }
+
+#home_contact_section .btn {
+  border-width: 2px;
+  font-weight: bold;
+  padding-right: 2rem;
+  padding-left: 2rem; }
+
 #main_footer .footer-logo {
   margin-bottom: 1rem; }
 
@@ -6121,6 +6145,16 @@ a:hover {
         height: 100%; }
         #what_we_do .wwd_card h3 {
           font-size: 30px; }
+    #opportunity_section h1 {
+      margin-bottom: 6rem; }
+  #opportunity_section .image {
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+    #opportunity_section .content {
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      padding-left: 2rem; }
     #main_footer .footer-logo {
       border-right: 1px solid #c6c6c6;
       padding-bottom: 70px;

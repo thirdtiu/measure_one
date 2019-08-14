@@ -5847,6 +5847,9 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: #45454d; }
 
+.gray-bg {
+  background: #f0f0f0; }
+
 #large_top_page_bg {
   background: url(../images/large_top_page_bg.png) top no-repeat #f0f0f0;
   background-size: cover; }
@@ -5867,6 +5870,12 @@ a:hover {
   border-width: 2px;
   font-weight: bold;
   border-radius: 100px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #004c76; }
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: #004c76; }
 
 #main_header .btn-link {
   color: #fff;
@@ -5930,6 +5939,22 @@ a:hover {
     font-weight: bold; }
     #banner_section h1 strong {
       color: #ffda67; }
+
+#header_well {
+  margin-top: 4rem; }
+  #header_well h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #004c76;
+    margin-bottom: 4rem; }
+  #header_well strong {
+    color: #3ad9eb;
+    display: block; }
+  #header_well p {
+    font-size: 18px; }
+  #header_well.bottom_wave {
+    background: url(../images/bottom_wave.png) bottom no-repeat;
+    background-size: contain; }
 
 #home_cta_section {
   background: #f0f0f0;
@@ -6121,6 +6146,10 @@ a:hover {
       margin-top: 6rem; }
       #banner_section h1 {
         font-size: 82px; }
+    #header_well {
+      margin-top: 6rem; }
+      #header_well h1 {
+        font-size: 60px; }
     #home_cta_section {
       padding-top: 0;
       margin-top: -6rem;

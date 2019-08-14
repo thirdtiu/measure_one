@@ -5974,6 +5974,10 @@ a:hover {
   background: url(../images/insights_sample_image.png) left no-repeat;
   background-size: contain; }
 
+#performance_insights_section .btn {
+  border-width: 2px;
+  font-weight: bold; }
+
 #home_cta_section {
   background: #f0f0f0;
   padding-bottom: 4rem;
@@ -6007,6 +6011,27 @@ a:hover {
       color: #282828;
       font-size: 20px;
       font-weight: bold; }
+
+#leadership_section {
+  padding: 8rem 0 6rem;
+  color: #fff;
+  background: url(../images/team-swish.png) center no-repeat;
+  background-size: cover; }
+  #leadership_section .team-members {
+    margin: 4rem 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    #leadership_section .team-members li {
+      margin-bottom: 2rem; }
 
 #opportunity_section h1 {
   font-size: 30px;
@@ -6217,7 +6242,10 @@ a:hover {
       right: 73px;
       top: 66px;
       margin: 0;
-      padding: 0; } }
+      padding: 0; }
+        #leadership_section .team-members li {
+          width: 28%;
+          margin: 2%; } }
 
 @media (max-width: 1199.98px) {
     .survey-card {

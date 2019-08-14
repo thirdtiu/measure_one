@@ -205,6 +205,10 @@ a:hover {
 		background: url(../images/insights_sample_image.png) left no-repeat;
 		background-size: contain;
 	}
+	.btn {
+		border-width: 2px;
+		font-weight: bold;
+	}
 }
 #home_cta_section {
 	background: #f0f0f0;
@@ -277,6 +281,29 @@ a:hover {
 			}
 		}
 		font-size: 20px;
+	}
+}
+#leadership_section {
+	padding: 8rem 0 6rem;
+	color: #fff;
+	// min-height: 1251px;
+	background: url(../images/team-swish.png) center no-repeat;
+	background-size: cover;
+	.team-members {
+		margin: 4rem 0 0 0;
+		padding: 0;
+		list-style-type: none;
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		li {
+			@include media-breakpoint-up(md) {
+				width: 28%;
+				margin: 2%;
+			}
+			margin-bottom: 2rem;
+		}
 	}
 }
 #opportunity_section {

@@ -5941,7 +5941,8 @@ a:hover {
       color: #ffda67; }
 
 #header_well {
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  padding-bottom: 2rem; }
   #header_well h1 {
     font-size: 30px;
     font-weight: bold;
@@ -5955,6 +5956,23 @@ a:hover {
   #header_well.bottom_wave {
     background: url(../images/bottom_wave.png) bottom no-repeat;
     background-size: contain; }
+
+#api_feature_section {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  background: url(../images/api_feature_wave.png) bottom no-repeat #fff;
+  background-size: contain; }
+  #api_feature_section h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 5rem; }
+  #api_feature_section h1 {
+    margin-top: 0; }
+
+#performance_insights_section .content {
+  min-height: 590px;
+  background: url(../images/insights_sample_image.png) left no-repeat;
+  background-size: contain; }
 
 #home_cta_section {
   background: #f0f0f0;

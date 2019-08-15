@@ -5845,7 +5845,7 @@ img {
 body {
   background: #fff;
   font-family: 'Quicksand', sans-serif;
-  color: #45454d; }
+  color: #282828; }
 
 .gray-bg {
   background: #f0f0f0; }
@@ -6017,8 +6017,10 @@ a:hover {
   color: #fff;
   background: url(../images/team-swish.png) center no-repeat;
   background-size: cover; }
+  #leadership_section h1 {
+    font-size: 30px; }
   #leadership_section .team-members {
-    margin: 4rem 0 0 0;
+    margin: 2rem 0 0 0;
     padding: 0;
     list-style-type: none;
     text-align: center;
@@ -6032,6 +6034,39 @@ a:hover {
             justify-content: center; }
     #leadership_section .team-members li {
       margin-bottom: 2rem; }
+
+#board_section h1 {
+  font-size: 30px; }
+
+#board_section .team-members {
+  margin: 2rem 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #board_section .team-members li {
+    margin-bottom: 2rem; }
+
+#board_section .logos {
+  margin: 2rem 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #board_section .logos li {
+    margin-bottom: 2rem; }
 
 #opportunity_section h1 {
   font-size: 30px;
@@ -6245,7 +6280,13 @@ a:hover {
       padding: 0; }
         #leadership_section .team-members li {
           width: 28%;
-          margin: 2%; } }
+          margin: 2%; }
+      #board_section .team-members li {
+        width: 28%;
+        margin: 2%; }
+      #board_section .logos li {
+        width: 17%;
+        margin: 2%; } }
 
 @media (max-width: 1199.98px) {
     .survey-card {

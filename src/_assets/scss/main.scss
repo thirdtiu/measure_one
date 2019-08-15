@@ -51,6 +51,9 @@ a:hover {
 .nav-link {
 	font-weight: bold;
 }
+.btn-lg {
+	font-weight: bold;
+}
 .btn-outline {
 	border-width: 2px;
 	font-weight: bold;
@@ -336,6 +339,7 @@ a:hover {
 		text-align: center;
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 		li {
 			@include media-breakpoint-up(md) {
 				width: 17%;
@@ -384,6 +388,20 @@ a:hover {
 		font-weight: bold;
 		padding-right: 2rem;
 		padding-left: 2rem;
+	}
+}
+#contact_section {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	h1 {
+		font-size: 30px;
+		margin-bottom: 4rem;
+	}
+	.form-control {
+		border: none;
+		&::placeholder {
+			color: #ccc;
+		}
 	}
 }
 #main_footer {

@@ -5866,6 +5866,9 @@ a:hover {
 .nav-link {
   font-weight: bold; }
 
+.btn-lg {
+  font-weight: bold; }
+
 .btn-outline {
   border-width: 2px;
   font-weight: bold;
@@ -6064,7 +6067,9 @@ a:hover {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
   #board_section .logos li {
     margin-bottom: 2rem; }
 
@@ -6091,6 +6096,23 @@ a:hover {
   font-weight: bold;
   padding-right: 2rem;
   padding-left: 2rem; }
+
+#contact_section {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  #contact_section h1 {
+    font-size: 30px;
+    margin-bottom: 4rem; }
+  #contact_section .form-control {
+    border: none; }
+    #contact_section .form-control::-webkit-input-placeholder {
+      color: #ccc; }
+    #contact_section .form-control:-ms-input-placeholder {
+      color: #ccc; }
+    #contact_section .form-control::-ms-input-placeholder {
+      color: #ccc; }
+    #contact_section .form-control::placeholder {
+      color: #ccc; }
 
 #main_footer .footer-logo {
   margin-bottom: 1rem; }

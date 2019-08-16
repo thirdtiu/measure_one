@@ -51,8 +51,12 @@ a:hover {
 .nav-link {
 	font-weight: bold;
 }
+.blue {
+	color: $blue;
+}
 .btn-lg {
 	font-weight: bold;
+	border-width: 2px;
 }
 .btn-outline {
 	border-width: 2px;
@@ -161,11 +165,16 @@ a:hover {
 	}
 	font-size: 20px;
 }
+.top-swish {
+	background: url(../images/top-swish.png) top no-repeat;
+	background-size: contain;
+}
+
 #header_well {
 	margin-top: 4rem;
 	padding-bottom: 2rem;
 	@include media-breakpoint-up(lg) {
-		margin-top: 6rem;
+		margin-top: 8rem;
 	}
 	h1 {
 		font-size: 30px;
@@ -182,10 +191,79 @@ a:hover {
 	}
 	p {
 		font-size: 18px;
+		margin-bottom: 2rem;
 	}
 	&.bottom_wave {
 		background: url(../images/bottom_wave.png) bottom no-repeat;
 		background-size: contain;
+	}
+}
+#product_medias {
+	margin-top: 4rem;
+	.top_section {
+		background: url(../images/top_section_bg.png) left no-repeat;
+		background-size: contain;
+	}
+	.bottom_section {
+		background: url(../images/bottom_section_bg.png) right no-repeat;
+		background-size: contain;
+		.fancy-border-left {
+			@include media-breakpoint-up(lg) {
+				position: relative;
+				&::after {
+					content: '';
+					position: absolute;
+					width: 4px;
+					background: #3ad9eb;
+					left: -90px;
+					top: 0;
+					bottom: 4rem;
+				}
+			}
+		}
+	}
+	h3 {
+		font-size: 30px;
+		font-weight: normal;
+		margin-bottom: 3rem;
+	}
+
+	.product_media {
+		display: flex;
+		margin-bottom: 4rem;
+		flex-direction: column;
+		@include media-breakpoint-up(lg) {
+			flex-direction: row;	
+		}
+		&.reverse {
+			@include media-breakpoint-up(lg) {
+				flex-direction: row-reverse;
+			}
+			.image {
+				@include media-breakpoint-up(lg) {
+					padding-left: 2rem;
+					padding-right: 0;
+					padding-bottom: 0;
+				}
+			}
+		}
+		.image {
+			text-align: center;
+			flex-shrink: 0;
+			padding-bottom: 2rem;
+			@include media-breakpoint-up(lg) {
+				padding-right: 2rem;
+				padding-bottom: 0;
+			}
+		}
+		.title {
+			font-size: 30px;
+			font-weight: bold;
+			margin-bottom: 1rem;
+		}
+		.content {
+			font-size: 20px;
+		}
 	}
 }
 #api_feature_section{

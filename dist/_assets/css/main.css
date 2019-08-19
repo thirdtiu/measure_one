@@ -5881,7 +5881,10 @@ a:hover {
 .navbar-light .navbar-nav .nav-link {
   color: #004c76; }
 
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
   color: #004c76; }
 
 #main_header .btn-link {
@@ -6155,6 +6158,29 @@ a:hover {
       color: #ccc; }
     #contact_section .form-control::placeholder {
       color: #ccc; }
+
+.pricing_table th {
+  color: #fff;
+  font-weight: normal; }
+
+.pricing_table thead th {
+  background: #00486f; }
+
+.pricing_table thead td {
+  background: #ccc; }
+
+.pricing_table tbody th {
+  background: #00486f; }
+
+.pricing_table tbody td {
+  background: #ccc;
+  color: #123d6a; }
+
+.pricing_table tbody tr:nth-child(odd) th {
+  background: #0c78b2; }
+
+.pricing_table tbody tr:nth-child(odd) td {
+  background: #e1e1e1; }
 
 #main_footer .footer-logo {
   margin-bottom: 1rem; }

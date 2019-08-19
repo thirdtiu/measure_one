@@ -67,7 +67,10 @@ a:hover {
 .navbar-light .navbar-nav .nav-link {
 	color: $blue;
 }
-.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
  color: $blue;
 }
 
@@ -479,6 +482,39 @@ a:hover {
 		border: none;
 		&::placeholder {
 			color: #ccc;
+		}
+	}
+}
+
+// pricing page
+.pricing_table {
+	th {
+		color: #fff;
+		font-weight: normal;
+	}
+	thead {
+		th {
+			background: #00486f;
+		}
+		td {
+			background: #ccc;
+		}
+	}
+	tbody {
+		th {
+			background: #00486f;
+		}
+		td {
+			background: #ccc;
+			color: #123d6a;
+		}
+		tr:nth-child(odd) {
+			th {
+				background: #0c78b2;
+			}
+			td {
+				background: #e1e1e1;
+			}
 		}
 	}
 }

@@ -5852,7 +5852,7 @@ body {
 
 #large_top_page_bg {
   background: url(../images/large_top_page_bg.png) top no-repeat #f0f0f0;
-  background-size: cover; }
+  background-size: contain; }
 
 a:hover {
   text-decoration: none; }
@@ -5886,6 +5886,13 @@ a:hover {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   color: #004c76; }
+
+.generic_block h1 {
+  font-size: 30px;
+  font-weight: normal; }
+
+.generic_block p {
+  font-size: 20px; }
 
 #main_header .btn-link {
   color: #fff;
@@ -6182,6 +6189,34 @@ a:hover {
 .pricing_table tbody tr:nth-child(odd) td {
   background: #e1e1e1; }
 
+#use_case_banner .bg {
+  background: url(../images/use_case_header_bg.png) center no-repeat;
+  height: 933px;
+  background-size: contain; }
+
+#use_case_banner .content {
+  margin-left: 6rem;
+  margin-right: 4rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #use_case_banner .content img {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-top: 6rem; }
+  #use_case_banner .content h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px; }
+    #use_case_banner .content h1 strong {
+      color: #ffda67; }
+
 #main_footer .footer-logo {
   margin-bottom: 1rem; }
 
@@ -6410,5 +6445,23 @@ a:hover {
       margin-top: 4rem; } }
 
 @media (max-width: 991.98px) {
+    #use_case_banner .content {
+      margin-left: 4rem; }
+      #use_case_banner .content img {
+        width: 100px;
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin-top: 0; }
+      #use_case_banner .content h1 {
+        font-size: 30px; }
     #main_footer .footer-logo img {
       width: 150px; } }
+
+@media (max-width: 575.98px) {
+    #use_case_banner .content {
+      margin-left: 0;
+      margin-right: 0; }
+      #use_case_banner .content img {
+        width: 60px; }
+      #use_case_banner .content h1 {
+        font-size: 18px; } }

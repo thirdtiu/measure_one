@@ -629,6 +629,51 @@ a:hover {
 		}
 	}
 }
+#case_studies_list {
+	h1 {
+		font-size: 30px;
+		font-weight: normal;
+		margin-bottom: 2.5rem;
+	}
+	.case_study_list {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: stretch;
+		li {
+			margin-bottom: 2.5rem;
+			width: 100%;
+			padding: 10px;
+			@include media-breakpoint-up(sm) {
+				width: 50%;
+			}
+			@include media-breakpoint-up(md){
+				padding: 1rem;
+			}
+		}
+	}
+	.box {
+		background: #004c76;
+		height: 100%;
+	}
+	.image {
+		height: 276px;
+		background: #fff;
+		border-bottom: 13px solid $yellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
+	.content {
+		padding: 2.5rem;
+		font-size: 20px;
+		color: #fff;
+	}
+}
 #main_footer {
 	.footer-logo {
 		margin-bottom: 1rem;

@@ -6135,19 +6135,24 @@ a:hover {
     font-size: 30px;
     font-weight: bold; }
 
-#home_contact_section {
+#home_contact_section,
+#study_section {
   background: url(../images/image_home_contact.png) center no-repeat;
   background-size: cover; }
 
-#home_contact_section h1 {
-  font-size: 30px;
+#home_contact_section,
+#study_section {
   color: #fff; }
-
-#home_contact_section .btn {
-  border-width: 2px;
-  font-weight: bold;
-  padding-right: 2rem;
-  padding-left: 2rem; }
+  #home_contact_section h1,
+  #study_section h1 {
+    font-size: 30px;
+    color: #fff; }
+  #home_contact_section .btn,
+  #study_section .btn {
+    border-width: 2px;
+    font-weight: bold;
+    padding-right: 2rem;
+    padding-left: 2rem; }
 
 #contact_section {
   padding-top: 4rem;

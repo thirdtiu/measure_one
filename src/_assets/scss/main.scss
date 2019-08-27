@@ -466,11 +466,14 @@ a:hover {
 		}
 	}
 }
-#home_contact_section {
+#home_contact_section,
+#study_section {
 	background: url(../images/image_home_contact.png) center no-repeat;
 	background-size: cover;
 }
-#home_contact_section {
+#home_contact_section,
+#study_section {
+	color: #fff;
 	h1 {
 		font-size: 30px;
 		color: #fff;
